@@ -36,12 +36,11 @@ custom_greeting_variable = custom_greeting("Alexa")
 puts custom_greeting_variable
 
 # What is the return value of your method?
-    # The return value of the custom_greeting method is the string "Hello #{name}!" - with the name argument passed to 
-    # the method string interpolated.
+    # The return value of the custom_greeting method is the string "Hello Alexa!".
 # How many arguments did you pass your method?
     # One argument was passed to the method.
 # What data type was your argument(s)?
-    # A String object was passed in as the argument.
+    # A String object was passed as the argument.
 
 
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
@@ -58,8 +57,7 @@ full_name_greeting = greet_person("Zachery", "Kaelen", "Bergman")
 puts full_name_greeting
 
 # What is the return value of your method?
-    # The return value of the greet_person method is the string "Hello Zachery Kaelen Bergman!" - with the first, middle,
-    # and last name arguments passed to the method string interpolated.
+    # The return value of the greet_person method is the string "Hello Zachery Kaelen Bergman!".
 # How many arguments did you pass your method?
     # Three arguments were passed to the method.
 # What data type was your argument(s)?
@@ -81,11 +79,11 @@ squared = square(6)
 puts squared
 
 # What is the return value of your method?
-    # The return value of the square method is the integer 36.
+    # The return value of the square method is the string "The result is 36!".
 # How many arguments did you pass your method?
     # One argument was passed to the method.
 # What data type was your argument(s)?
-    # An Integer object was passed in as the argument.
+    # An Integer object was passed as the argument.
 
 
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
